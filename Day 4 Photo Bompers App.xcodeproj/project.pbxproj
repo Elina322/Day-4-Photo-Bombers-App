@@ -14,6 +14,8 @@
 		C38AAF291B3138550058E996 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38AAF281B3138550058E996 /* Images.xcassets */; };
 		C38AAF2C1B3138550058E996 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38AAF2A1B3138550058E996 /* LaunchScreen.xib */; };
 		C38AAF381B3138550058E996 /* Day_4_Photo_Bompers_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AAF371B3138550058E996 /* Day_4_Photo_Bompers_AppTests.m */; };
+		C38AAF431B313D500058E996 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AAF421B313D500058E996 /* PhotoCollectionViewCell.m */; };
+		C38AAF471B3142180058E996 /* car_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C38AAF461B3142180058E996 /* car_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		C38AAF311B3138550058E996 /* Day 4 Photo Bompers AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 4 Photo Bompers AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38AAF361B3138550058E996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C38AAF371B3138550058E996 /* Day_4_Photo_Bompers_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day_4_Photo_Bompers_AppTests.m; sourceTree = "<group>"; };
+		C38AAF411B313D500058E996 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		C38AAF421B313D500058E996 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		C38AAF461B3142180058E996 /* car_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				C38AAF201B3138550058E996 /* AppDelegate.m */,
 				C38AAF221B3138550058E996 /* ViewController.h */,
 				C38AAF231B3138550058E996 /* ViewController.m */,
+				C38AAF411B313D500058E996 /* PhotoCollectionViewCell.h */,
+				C38AAF421B313D500058E996 /* PhotoCollectionViewCell.m */,
 				C38AAF251B3138550058E996 /* Main.storyboard */,
 				C38AAF281B3138550058E996 /* Images.xcassets */,
 				C38AAF2A1B3138550058E996 /* LaunchScreen.xib */,
@@ -96,6 +103,7 @@
 		C38AAF1B1B3138550058E996 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C38AAF461B3142180058E996 /* car_image.jpg */,
 				C38AAF1C1B3138550058E996 /* Info.plist */,
 				C38AAF1D1B3138550058E996 /* main.m */,
 			);
@@ -201,6 +209,7 @@
 			files = (
 				C38AAF271B3138550058E996 /* Main.storyboard in Resources */,
 				C38AAF2C1B3138550058E996 /* LaunchScreen.xib in Resources */,
+				C38AAF471B3142180058E996 /* car_image.jpg in Resources */,
 				C38AAF291B3138550058E996 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38AAF241B3138550058E996 /* ViewController.m in Sources */,
+				C38AAF431B313D500058E996 /* PhotoCollectionViewCell.m in Sources */,
 				C38AAF211B3138550058E996 /* AppDelegate.m in Sources */,
 				C38AAF1E1B3138550058E996 /* main.m in Sources */,
 			);
